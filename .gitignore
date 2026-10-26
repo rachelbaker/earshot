@@ -1,0 +1,5 @@
+node_modules/
+# Claude Code regenerates these every time the plugin loads.
+.claude-plugin/types/
+addon/*/.claude-plugin/types/
+addon/*/tsconfig.json

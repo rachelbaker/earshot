@@ -1,0 +1,26 @@
+{
+  "name": "earshot",
+  "version": "0.2.1",
+  "private": true,
+  "description": "Hear your coding agent, and talk back to it, out loud. A Claude Code plugin; macOS.",
+  "type": "module",
+  "scripts": {
+    "doctor": "node src/cli.js doctor",
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "author": "Rachel Baker",
+  "bin": {
+    "earshot": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "native",
+    "addon",
+    ".claude-plugin"
+  ]
+}

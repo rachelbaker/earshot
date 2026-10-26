@@ -1,0 +1,11 @@
+{
+  "name": "earshot",
+  "version": "0.2.1",
+  "description": "Talk to Claude Code and hear replies shaped for listening, with a microphone you turn on for each turn. macOS only.",
+  "author": {
+    "name": "Rachel Baker"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "displayName": "earshot"
+}

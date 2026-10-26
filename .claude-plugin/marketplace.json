@@ -1,0 +1,14 @@
+{
+  "name": "earshot",
+  "description": "Voice conversations inside Claude Code on macOS.",
+  "owner": {
+    "name": "Rachel Baker"
+  },
+  "plugins": [
+    {
+      "name": "earshot",
+      "source": "./",
+      "description": "Talk to Claude Code and hear replies shaped for listening, with a microphone you turn on for each turn. macOS only."
+    }
+  ]
+}

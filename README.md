@@ -2,6 +2,8 @@
 
 earshot adds voice to your existing Claude Code session on macOS. Speak instead of typing, hear Claude's replies, and interrupt a spoken reply to answer or correct it.
 
+![earshot active in Claude Code, with Talk and Mute controls above the prompt](docs/images/earshot-active.png)
+
 Turn it on with `/earshot`. A bar above the prompt gives you a Talk button, a Mute button, and the current voice status. The microphone starts off. You turn it on for each turn, and earshot sends your words when it detects that you have finished.
 
 Replies are shaped for listening. Code, tables, numbered instructions, and long lists stay on screen, with a spoken sentence pointing you to them. Short bullet lists are read aloud. List handling follows Markdown structure, so formatting affects what you hear.
